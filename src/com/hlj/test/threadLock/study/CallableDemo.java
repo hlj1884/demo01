@@ -17,7 +17,7 @@ class myThread2 implements Callable<Integer>{
 
     @Override
     public Integer call() throws Exception {
-
+        System.out.println("张三");
         return 1024;
     }
 }
